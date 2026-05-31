@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  <title>Light Meter Support</title>
+  <meta name="description" content="Light Meter support page for exposure reference, photo metering, cine metering, light checks, meter logs, trial, and in-app purchase help.">
+  <style>
+    :root {
+      --bg: #0b0c0d;
+      --panel: #141516;
+      --text: #f4f1ea;
+      --muted: #bdb7ac;
+      --line: rgba(255,255,255,.12);
+      --accent: #f1b75d;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.62;
+    }
+
+    main {
+      width: min(860px, calc(100% - 36px));
+      margin: 0 auto;
+      padding: 52px 0 80px;
+    }
+
+    .brand {
+      color: var(--muted);
+      letter-spacing: 0;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    h1, h2 { line-height: 1.22; letter-spacing: 0; }
+    h1 { margin: 10px 0 10px; font-size: clamp(34px, 7vw, 56px); }
+    h2 { margin: 36px 0 12px; font-size: 24px; }
+    p, li { color: var(--muted); }
+    a { color: var(--accent); }
+
+    .header {
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 28px;
+      margin-bottom: 34px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 18px;
+      margin: 24px 0;
+    }
+
+    ul { padding-left: 22px; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="header">
+      <div class="brand">Light Meter</div>
+      <h1>Support</h1>
+      <p>Light Meter is an iPhone exposure reference tool for checking light before photo and video shoots.</p>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:tongjia323@gmail.com">tongjia323@gmail.com</a></p>
+    </div>
+
+    <h2>What Light Meter Does</h2>
+    <ul>
+      <li>Live EV reference reading from the iPhone camera preview.</li>
+      <li>Photo metering with ISO, aperture, shutter, and metering mode controls.</li>
+      <li>Cine metering with frame rate, shutter angle, and ND guidance.</li>
+      <li>Light checks for highlight risk, shadow risk, and exposure condition.</li>
+      <li>Manual and auto exposure modes.</li>
+      <li>Meter logs and local report export.</li>
+    </ul>
+
+    <h2>Important Note</h2>
+    <p>Light Meter provides practical exposure reference before shooting. It does not replace a professionally calibrated incident light meter. Readings may be affected by the iPhone camera, automatic exposure behavior, HDR, lens choice, and environment light.</p>
+
+    <h2>Trial and Purchase</h2>
+    <p>Light Meter includes a one-day trial. After the trial, main features require a non-consumable one-time lifetime unlock through Apple StoreKit.</p>
+
+    <h2>Privacy and Local Processing</h2>
+    <p>Metering, photo capture, and video recording are processed locally on device. Light Meter does not upload camera previews, photos, videos, microphone audio, location, account, or tracking data.</p>
+
+    <h2>Related</h2>
+    <p><a href="./privacy.html">Privacy Policy</a></p>
+  </main>
+</body>
+</html>
